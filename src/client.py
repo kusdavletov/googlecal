@@ -14,7 +14,7 @@ def login(ctx):
     sign_in()
 
 
-@click.command(help='Get a schedule (for 2 days by default)')
+@click.command(help='Get a schedule')
 @click.option('--date', type=str, default='', help='Specific date to print')
 @click.option('--number', type=int, default=7, help='Number of days to print')
 @click.pass_context
