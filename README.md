@@ -36,5 +36,5 @@ Commands:
 For the very first time run `googlecal login` and verify account on the website. Enjoy:)
 
 ## TODO
-[] add screenshots
-[] make a binary file
+- [ ] add screenshots
+- [ ] make a binary file
