@@ -28,7 +28,9 @@ Commands:
   googlecal edit ID                 Edit event with id
   googlecal get_id NAME             Get an id from event name
   googlecal login                   Sign in to Google Calendar
-  googlecal schedule [OPTIONS]      Get a schedule (for 2 days by default)
-                      --date        Specific date to print
-                      --number      Number of days to print
+  googlecal schedule [OPTIONS]      Get a schedule
+                      --date        Specific date to print (default: starting from today)
+                      --number      Number of days to print (default: 7 days)
 ```
+
+For the very first time run `googlecal login` and verify account on the website. Enjoy:)
