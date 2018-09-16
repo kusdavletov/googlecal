@@ -7,7 +7,7 @@
 
 ## HOW TO INSTALL
 
-Go to `https://developers.google.com/calendar/quickstart/python` -> click `ENABLE THE GOOGLE CALENDAR API`
+Go [here](https://developers.google.com/calendar/quickstart/python) -> click `ENABLE THE GOOGLE CALENDAR API`
 
 This opens a new dialog. In the dialog, do the following:
 - Select **+ Create a new project**
