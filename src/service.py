@@ -156,7 +156,7 @@ def add_event_advanced():
             recurrence += 'COUNT=' + str(count) + ';'
         else:
             until = input('      Please enter the UNTIL (example: 20150628) or leave empty: ')
-            if until and type(until) == int:
+            if until:
                 recurrence += 'UNTIL=' + str(until) + ';'
         by = str(input('      Please enter the BY... (BYDAY, BYMONTH, BYYEARDAY, or BYHOUR) or leave empty: ')).upper()
         if by and by in ['BYDAY', 'BYMONTH', 'BYYEARDAY', 'BYHOUR']:
