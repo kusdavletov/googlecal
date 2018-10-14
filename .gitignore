@@ -1,0 +1,5 @@
+src/auth/credentials.json
+src/auth/token.json
+src/__pycache__/
+build/
+env/
